@@ -1,0 +1,20 @@
+!=partial('header')
+div(class= 'container-fluid', style= 'margin-top: 50px !important')
+  div(class= 'row')
+    div#message.span4
+      h2= 'Message'
+      div.messageArea(style= 'height: 500px; overflow-y: scroll;')
+    div#calendar.span8
+      div.calendarArea
+    div#topic.span4
+      h2= 'Topics'
+      div.tagArea(style= 'height: 500px;')
+        !=partial('topic', {collection: topics})
+!=partial('footer')
+!=partial('template')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/jquery-1.7.1.min.js')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/jquery-ui-1.8.17.custom.min.js')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/bootstrap.min.js')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/fullcalendar.min.js')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/gcal.js')
+script(type= 'text/javascript', charst= 'utf8', src= '/js/main.js')

@@ -1,0 +1,47 @@
+* {
+		padding: 0;
+		margin: 0;
+		font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body {
+		font-size: 16pt;
+}
+a {
+		color: #00B7FF;
+}
+
+/********************
+ * Header
+ */
+
+div#header div.navbar-inner{
+		border-radius: 0 !important;
+}
+div#header div.navbar-inner div.container{
+		margin-left: 20px;
+}
+
+
+/********************
+ * Footer
+ */
+
+/********************
+ * Main
+ */
+#main {
+		margin: 0 auto;
+		background: #CCC;
+}
+#main #message {
+		display: inline-block;
+		background: #CCA;
+		border: 2px solid #CCC;
+		width: 300px;
+}
+#main #calender {
+		display: inline-block;
+}
+main todo {
+		display: inline-block;
+}

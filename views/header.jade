@@ -1,0 +1,17 @@
+div(class= 'navbar navbar-fixed-top')
+  div.navbar-inner
+    div.container
+      //a(class= 'btn btn-navbar', data-toggle= 'collapse', data-target= '.nav-collapse')= title
+      a(class= 'brand')= title
+      div.navbar-collapse
+        ul.nav
+          li.user.dropdown
+            a(class= 'dropdown-toggle', data-toggle= 'dropdown')= 'ユーザ'
+            ul(class= 'dropdown-menu')
+              li= '設定'
+              li= '友達'
+              li= 'ログアウト'
+          li.notify
+            a= '通知'
+          li.message
+            a= 'メッセージ'

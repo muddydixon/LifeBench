@@ -1,0 +1,23 @@
+LifeBench 業務ツール
+
+* Action
+ * Message
+ * Todo
+ * Event
+ * Relation
+
+ * Vote
+ * Like
+ * Share
+
+ * Clip
+ * etc
+ 
+* Notification
+ * user
+  * Friend
+ * notify
+  * Todo
+	* Event
+ * message
+  * Message
